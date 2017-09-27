@@ -1,0 +1,33 @@
+{
+  "name": "ts-playground",
+  "version": "1.0.0",
+  "description": "TypeScript and SystemJS playground",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "live-server",
+    "tsc": "tsc --outDir ./dist ./src/main.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/vlkff/ts-playground.git"
+  },
+  "keywords": [
+    "TypeScript",
+    "playground",
+    "SystemJS"
+  ],
+  "author": "Vladyslav Bogatyrov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vlkff/ts-playground/issues"
+  },
+  "homepage": "https://github.com/vlkff/ts-playground#readme",
+  "devDependencies": {
+    "live-server": "^1.2.0",
+    "typescript": "^2.5.3"
+  },
+  "dependencies": {
+    "systemjs": "^0.20.19"
+  }
+}
