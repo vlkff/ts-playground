@@ -1,17 +1,15 @@
 
 import {Base} from './Base';
-import {say} from "./common";
+import {say, log} from "./common";
 
 /* Decorators showcase code */
 //let obj1 = Base();
 //obj1.say();
 //say('Hello');
-console.log('yo');
-say('hey');
 
-let five = '5';
-five = 'str';
-say(five);
+say('Start executing Main file');
+
 
 let obj1 = new Base(22);
+console.log(obj1);
 obj1.say('talking object');

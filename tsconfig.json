@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "sourceMap": true,
+    "experimentalDecorators": true,
+    "outDir": "dist"
+  },
+  "files": ["src/main.ts"],
+
+  "exclude": [
+    "node_modules"
+  ]
+}

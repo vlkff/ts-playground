@@ -6,7 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "serve": "live-server",
-    "tsc": "tsc --outDir ./dist ./src/main.ts"
+    "tsc": "tsc --project .",
+    "tsc:bak": "tsc --experimentalDecorators --outDir ./dist ./src/main.ts",
+    "tsc:single": "tsc --out ./dist/out.js --module amd ./src/main.ts",
+    "webpack": "webpack ./dist/main.js bundle.js"
   },
   "repository": {
     "type": "git",
@@ -25,7 +28,8 @@
   "homepage": "https://github.com/vlkff/ts-playground#readme",
   "devDependencies": {
     "live-server": "^1.2.0",
-    "typescript": "^2.5.3"
+    "typescript": "^2.5.3",
+    "webpack": "^3.6.0"
   },
   "dependencies": {
     "systemjs": "^0.20.19"
