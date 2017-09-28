@@ -3,19 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <!--<script src=""></script>-->
     <script src="node_modules/systemjs/dist/system.src.js"></script>
-    <!--<script>-->
-      <!--SystemJS.config({-->
-        <!--// or 'traceur' or 'typescript'-->
-        <!--transpiler: 'typescript',-->
-        <!--// or traceurOptions or typescriptOptions-->
-        <!--typescriptOptions: {-->
+    <script src="systemjs.config.js"></script>
+    <!--<script src="dist/out.js"></script>-->
+    <script>SystemJS.import('app');</script>
 
-        <!--}-->
-      <!--});-->
-    <!--</script>-->
-
-    <script>SystemJS.import('./dist/main.js');</script>
 </head>
 <body>
 
